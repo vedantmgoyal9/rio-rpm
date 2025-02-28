@@ -12,7 +12,7 @@ License:        MIT
 URL:            https://crates.io/crates/rioterm
 Source:         %{crates_source}
 # Automatically generated patch to strip dependencies and normalize metadata
-Patch:          rioterm-fix-metadata-auto.diff
+Patch:          rio-fix-metadata-auto.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
